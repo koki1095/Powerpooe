@@ -1,0 +1,14 @@
+- [x] Add debts table and index to backend/schema.sql
+- [x] Create backend/routes/debts.js with CRUD + strategy endpoint
+- [x] Register /api/debts route in backend/server.js
+- [x] Create frontend/src/pages/DebtPlan.jsx
+- [x] Add Debt Plan route in frontend/src/App.jsx
+- [x] Add Debt Plan nav item in frontend/src/components/Sidebar.jsx
+- [x] Add Debt Plan CTA card in frontend/src/pages/Dashboard.jsx
+- [x] Update frontend/src/pages/BabySteps.jsx to consume debt strategy and step-2 status
+- [ ] Add debt_category + term_type support in backend schema/routes
+- [ ] Add projected completion date/months in debts API responses
+- [ ] Update DebtPlan UI to capture category, term, APR and show payoff date
+- [ ] Add debt presets (credit card, vehicle finance, etc.) in DebtPlan
+- [ ] Update Transactions linked-debt labels with category/APR/payoff date
+- [ ] Run frontend build + API/UI verification for debt payment flow

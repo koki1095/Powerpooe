@@ -1,0 +1,16 @@
+{
+  "name": "pooe-power-financial-advisor",
+  "version": "1.0.0",
+  "description": "Full-stack Financial Planning Web App",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev": "cd backend && npm run dev &",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "keywords": ["financial", "advisor", "fullstack", "react", "nodejs"],
+  "author": "Pooe Power",
+  "license": "MIT"
+}
